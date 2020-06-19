@@ -1,7 +1,12 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 3859490, 
+        "Cost": 5700000, 
         "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -9,7 +14,7 @@
         "UIName": "Crab", 
         "Id": "chassisdef_crab_CRB-27-RV", 
         "Name": "Crab", 
-        "Details": "Re-engineered in 3031, the CRB-27-RV is based on the near mythical CRB-27 'Mech built in the last days of the Star League. This variant is officially licensed to select major Houses only and is virtually impossible to find on the secondary market. It eschews all traditional armament in favor of two COIL-L energy weapon platforms and also removes a single Heat Sink to maintain speed and armor.", 
+        "Details": "Re-engineered in 3015, the CRB-27-RV is based on the near mythical CRB-27 'Mech built in the last days of the Star League. This variant is officially licensed to select major Houses only and is virtually impossible to find on the secondary market. It eschews all traditional armament in favor of two COIL-L energy weapon platforms and also removes a single Heat Sink to maintain speed and armor.", 
         "Icon": "uixTxrIcon_crab"
     }, 
     "VariantName": "CRB-27-RV", 
@@ -24,7 +29,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 65, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 130, 
     "StabilityDefenses": [
         0, 
@@ -39,11 +44,11 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 5, 
-    "PunchesWithLeftArm": true, 
+    "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 65, 
-    "MeleeInstability": 50, 
+    "MeleeDamage": 45, 
+    "MeleeInstability": 45, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 65, 
     "DFAToHitModifier": 0, 

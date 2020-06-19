@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 844128, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Shadowhawk SHD-3H", 
@@ -510,7 +510,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AMS", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -532,7 +532,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -543,7 +543,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -609,5 +609,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 844128
+    "simGameMechPartCost": 1500000
 }

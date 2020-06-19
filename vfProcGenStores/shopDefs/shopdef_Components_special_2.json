@@ -1,0 +1,64 @@
+{
+   "ID" : "shopdef_Components_special_2",
+   "RequirementTags" : {
+      "items" : [
+		 "planet_industry_research"
+	  ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty",
+		"planet_faction_independent",
+		"planet_faction_pirate",
+		"planet_faction_nofaction"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+	  {
+         "ID" : "Gear_HeatSink_Generic_Prototype",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 3
+      },
+	  {
+         "ID" : "emod_engineslots_xl_center",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 3
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Bulk-Bank",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 3
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 3
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Improved-Bank",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 3
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Thermal-Exchanger-II",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 3
+      }
+  ]
+}

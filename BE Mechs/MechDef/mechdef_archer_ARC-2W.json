@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1475450, 
-        "Rarity": 3, 
-        "Purchasable": false, 
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Archer ARC-2W", 
@@ -510,7 +510,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -521,5 +521,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1475450
+    "simGameMechPartCost": 950000
 }

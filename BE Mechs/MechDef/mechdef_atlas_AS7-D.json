@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2422200, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Atlas AS7-D", 
@@ -620,5 +620,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2422200
+    "simGameMechPartCost": 1500000
 }

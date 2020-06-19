@@ -1,7 +1,7 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 12555960, 
+        "Cost": 12000000, 
         "Rarity": 5, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -42,8 +42,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 50, 
-    "MeleeInstability": 25, 
+    "MeleeDamage": 95, 
+    "MeleeInstability": 95, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 100, 
     "DFAToHitModifier": 0, 
@@ -180,9 +180,9 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
-            "MaxArmor": 320, 
-            "MaxRearArmor": 160, 
-            "InternalStructure": 160
+            "MaxArmor": 310, 
+            "MaxRearArmor": 155,
+            "InternalStructure": 155
         }, 
         {
             "Location": "RightTorso", 

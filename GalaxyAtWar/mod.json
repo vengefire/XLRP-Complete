@@ -2,7 +2,7 @@
     "Name": "Galaxy at War",
     "Enabled": true,
 
-    "Version": "4.3.1",
+    "Version": "4.4.0",
     "Author": "don Zappo and gnivler",
     
     "DLL": "GalaxyatWar.dll",
@@ -13,7 +13,7 @@
 	{
 		"StartingPirateActivity" : 25.0,
 		"BonusPirateResources" : 500.0,
-		"PirateSystemFlagValue" : 5.0,
+		"PirateSystemFlagValue" : 10.0,
 		"FractionPirateResources" : 1,
 		
 		"ResourceScale" : 0.5,
@@ -30,6 +30,12 @@
 		"ChangeDifficulty" : true,
 		"ExpandedMap" : false,
 		"ResetMap" : false,
+		"AggressiveToggle" : true,
+		
+		"ComstarSupport" : true,
+		"ComstarARBonus" : 500,
+		"ComstarDRBonus" : 500,
+		"ComstarSupportTime" : 3,
 		
 		"DeploymentMinDays" : 1,
 		"DeploymentMaxDays" : 6,
@@ -37,12 +43,32 @@
 		"DeploymentEscalationFactor" : 1.1,
 		"InfluenceDivisor" : 1.25,
 		"DeploymentRerollBound" : 0.33,
-		"DeploymentReward_01" : "itemCollection_loot_careerReward_1",
-		"DeploymentReward_02" : "itemCollection_loot_careerReward_2",
-		"DeploymentReward_03" : "itemCollection_loot_careerReward_3",
-		"DeploymentReward_04" : "itemCollection_loot_careerReward_4",
-		"DeploymentReward_05" : "itemCollection_loot_careerReward_5",
-		"DeploymentReward_06" : "itemCollection_loot_careerReward_6",
+		"DeploymentReward_01" : "itemCollection_BTR_GaWReward_1",
+		"DeploymentReward_02" : "itemCollection_BTR_GaWReward_2",
+		"DeploymentReward_03" : "itemCollection_BTR_GaWReward_3",
+		"DeploymentReward_04" : "itemCollection_BTR_GaWReward_4",
+		"DeploymentReward_05" : "itemCollection_BTR_GaWReward_5",
+		"DeploymentReward_06" : "itemCollection_BTR_GaWReward_6",
+		
+		//***Attacking Resources
+		"planet_industry_poor" : 5,
+		"planet_industry_mining" : 10,
+		"planet_industry_rich" : 15,
+		"planet_industry_manufacturing" : 20,
+		"planet_industry_research" : 25,
+		"planet_other_starleague" : 30,
+		
+		//***Defending Resources
+		"planet_industry_agriculture" : 10,
+		"planet_industry_aquaculture" : 10,
+		"planet_other_hub" : 15,
+		"planet_other_capital" : 20,
+		"planet_pop_none" : 2,
+		"planet_pop_small" : 4,
+		"planet_pop_medium" : 6,
+		"planet_pop_large" : 8,
+		"planet_other_megacity" : 10,
+		"planet_other_comstar" : 0,
 		
 		"IncludedFactions": [
 			"Davion",
@@ -59,32 +85,33 @@
 		"DefensiveFactions": [
 			"Locals",
 			"NoFaction",
-			"ComStar"
+			"ComStar",
+			"AuriganPirates"
 			],
 		"ImmuneToWar" : [
 			"ComStar"
 			],
 		"BonusAttackResources": {
-			"MagistracyOfCanopus" : 576,
-			"Davion" : 576,
-			"Liao" : 776,
-			"Marik" : 576,
-			"AuriganRestoration" : 576,
-			"TaurianConcordat" : 576,
-			"Locals" : 576,
-			"NoFaction" : 576,
+			"MagistracyOfCanopus" : 250,
+			"Davion" : 250,
+			"Liao" : 250,
+			"Marik" : 250,
+			"AuriganRestoration" : 250,
+			"TaurianConcordat" : 250,
+			"Locals" : 250,
+			"NoFaction" : 250,
 			"ComStar" : 0,
 			"AuriganPirates" : 0
 			},
 		"BonusDefensiveResources": {
-			"MagistracyOfCanopus" : 568,
-			"Davion" : 568,
-			"Liao" : 1568,
-			"Marik" : 568,
-			"AuriganRestoration" : 568,
-			"TaurianConcordat" : 568,
-			"Locals" : 568,
-			"NoFaction" : 568,
+			"MagistracyOfCanopus" : 250,
+			"Davion" : 250,
+			"Liao" : 600,
+			"Marik" : 250,
+			"AuriganRestoration" : 250,
+			"TaurianConcordat" : 250,
+			"Locals" : 250,
+			"NoFaction" : 250,
 			"ComStar" : 0,
 			"AuriganPirates" : 0
 			},
@@ -174,7 +201,8 @@
 			"ThreeWayBattle" : 0.6,
 			"AttackDefend" : 1.6,
 			"SoloDuel" : 0.4,
-			"DuoDuel" : 0.4
+			"DuoDuel" : 0.4,
+			"Blackout" : 1.0
 			},
 		"LogoNames": {
 			"Davion" : "davionLogo",
@@ -186,9 +214,32 @@
 			"Kurita" : "kuritaLogo",
 			"Steiner" : "steinerLogo"
 			},
+		
+		
+		//** If enabled, the listed faction will support the weakest faction for X months providing bonus Attack and Defensive resources during that time. 
+		"GaW_PoliceSupport" : true,
+		"GaW_Police" : "ComStar",
+		"GaW_Police_ARBonus" : 250,
+		"GaW_Police_DRBonus" : 500,
+		"GaW_Police_SupportTime": 3,
+		
+		//** Prevent systems from taking place in the Galaxy at War until after a Flashpoint has occurred. 
+		//** List<string, string> "Flashpoint Tag when Complete" : "System Name"	
+		"FlashpointReleaseSystems": { "" : "" },
+		
+		//** Force alliances. Dictionary<string, List<string> of Faction Names. Formatted: "This Faction" : [ "Allied with", "These Factions" ]		
+		"FactionsAlwaysAllies": { "" : [ "" ] },
+			
+		//** Hyades Rim compatibility specific settings.
 		"HyadesRimCompatible" : false,
+		"HyadesPirates": [],
+		"HyadesFlashpointSystems": [],
+		"HyadesAppearingPirates": [],
+		"HyadesEmployersOnly": [],
+		"HyadesTargetsOnly": [],
+		"HyadesNeverControl": [],
 			
-			
+		// ** ISM Compatibility specific section.	
 		"ISMCompatibility" : false,
 		
 		"StartingPirateActivity_ISM" : 5.0,
@@ -238,7 +289,7 @@
 			"ComStar" : 0,
 			"AuriganPirates" : 0
 			},
-			
+		
 		"LongWarTesting" : false,
 		"Debug" : false
     }

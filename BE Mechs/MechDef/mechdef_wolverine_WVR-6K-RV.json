@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 844128, 
         "Rarity": 2, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Wolverine WVR-6K-RV", 
@@ -499,7 +499,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM_half", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -510,5 +510,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 844128
+    "simGameMechPartCost": 750000
 }

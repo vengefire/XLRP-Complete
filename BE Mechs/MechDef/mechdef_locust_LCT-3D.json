@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_locust_LCT-3D", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 250432, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 250432,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Locust LCT-3D", 
@@ -191,7 +191,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -444,5 +444,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 250432
+    "simGameMechPartCost": 350000
 }

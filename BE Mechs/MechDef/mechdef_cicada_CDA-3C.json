@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 655962, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Cicada CDA-3C", 
@@ -180,7 +180,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -400,5 +400,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 655962
+    "simGameMechPartCost": 525000
 }

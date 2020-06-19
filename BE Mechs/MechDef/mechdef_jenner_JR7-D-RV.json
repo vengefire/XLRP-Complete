@@ -11,13 +11,13 @@
     "Description": {
         "Cost": 382872, 
         "Rarity": 1, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Jenner JR7-D-RV", 
         "Id": "mechdef_jenner_JR7-D-RV", 
         "Name": "Jenner", 
-        "Details": "Jenner D-RVs don't run nearly as hot as their predecessor but they can rack up a vast amount of heat. They excel at getting quickly into combat to deliver a knockout punch with thier twin COIL-M energy weapons which replace the original Medium Lasers. Their capability with speed and extensive increase in armor compared to other variants does come at the expense of less weapo redundancy as this variant also loses an SRM.", 
+        "Details": "Jenner D-RVs don't run nearly as hot as their predecessor but they also don't have any jump jets either. They do however excel at getting quickly into combat to deliver a knockout punch with thier twin COIL-M energy weapons which replace the original Medium Lasers; all thanks to an uprated engine. Their capability with speed and extensive increase in armor compared to other variants does come at the expense of less weapon redundancy as this variant also loses an SRM.", 
         "Icon": "uixTxrIcon_jenner"
     }, 
     "RequiredToSpawnCompanyTags": {
@@ -40,29 +40,29 @@
         {
             "DamageLevel": "Functional", 
             "Location": "CenterTorso", 
-            "CurrentArmor": 85, 
+            "CurrentArmor": 95, 
             "CurrentRearArmor": 30, 
             "CurrentInternalStructure": 55, 
-            "AssignedArmor": 85, 
+            "AssignedArmor": 95, 
             "AssignedRearArmor": 30
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "LeftTorso", 
-            "CurrentArmor": 70, 
-            "CurrentRearArmor": 25, 
+            "CurrentArmor": 75, 
+            "CurrentRearArmor": 30, 
             "CurrentInternalStructure": 40, 
-            "AssignedArmor": 70, 
-            "AssignedRearArmor": 25
+            "AssignedArmor": 75, 
+            "AssignedRearArmor": 30
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightTorso", 
-            "CurrentArmor": 70, 
-            "CurrentRearArmor": 25, 
+            "CurrentArmor": 75, 
+            "CurrentRearArmor": 30, 
             "CurrentInternalStructure": 40, 
-            "AssignedArmor": 70, 
-            "AssignedRearArmor": 25
+            "AssignedArmor": 75, 
+            "AssignedRearArmor": 30
         }, 
         {
             "DamageLevel": "Functional", 
@@ -85,19 +85,19 @@
         {
             "DamageLevel": "Functional", 
             "Location": "LeftLeg", 
-            "CurrentArmor": 45, 
+            "CurrentArmor": 50, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 40, 
-            "AssignedArmor": 45, 
+            "AssignedArmor": 50, 
             "AssignedRearArmor": 0
         }, 
         {
             "DamageLevel": "Functional", 
             "Location": "RightLeg", 
-            "CurrentArmor": 45, 
+            "CurrentArmor": 50, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 40, 
-            "AssignedArmor": 45, 
+            "AssignedArmor": 50, 
             "AssignedRearArmor": 0
         }
     ], 
@@ -147,50 +147,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "RightArm", 
             "ComponentDefID": "emod_arm_part_shoulder", 
             "SimGameUID": "", 
@@ -213,32 +169,10 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "Head", 
             "ComponentDefID": "Gear_Cockpit_Generic_Standard", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -261,17 +195,6 @@
             "ComponentDefID": "emod_leg_hip", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "emod_engine_245", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -442,7 +365,18 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_engine_265", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 382872
+    "simGameMechPartCost": 500000
 }

@@ -6,12 +6,13 @@
     "Author": "don Zappo and vengefire",
     
     "DLL": "ReputationOverhaul.dll",
-	"OptionallyDependsOn": [ "XLRP-Overrides" ],
+	"OptionallyDependsOn": [ "BTR-Overrides" ],
 	"Manifest": [
         { "Type": "SimGameConstants", "Path": "simGameConstants", "ShouldMergeJSON": true }
-   ],
+    ],
 	
     "Settings": 
 	{
+		"MaxContractsPerSystem": 5
     }
 }

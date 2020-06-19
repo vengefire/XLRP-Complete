@@ -14,3 +14,16 @@ slnx.sqlite
 /CustomProfiler
 /FakeCAB/
 /.idea
+*.log
+*.1
+*.2
+*.3
+*.4
+*.5
+/.vs/Mods/v16/TestStore/0/000-0000.testlog
+/.vs/Mods/v16/TestStore/0/testlog.manifest
+/.vs/Mods/v16/.suo
+/vfProcGenStores/res/~$test-xlrp-store-content.xlsx
+/vfProcGenStores/~$DataManagerItems.xlsx
+/.vs/Battletech-Revised/v16/.suo
+/Battletech-Revised.zip

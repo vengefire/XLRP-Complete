@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_cataphract_CTF-3L", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1384128, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Cost": 1384128,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Cataphract CTF-3L", 
@@ -217,17 +217,6 @@
             "ComponentDefID": "Gear_HeatSink_Generic_Double", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_MASC", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -554,5 +543,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1384128
+    "simGameMechPartCost": 950000
 }

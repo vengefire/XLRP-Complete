@@ -1,7 +1,7 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1627250, 
+        "Cost": 3400000, 
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_mongoose"
     }, 
     "VariantName": "MON-70", 
-    "StockRole": "__/Base_3061.chassisdef_mongoose_MON-70.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_mongoose_MON-70.YangsThoughts/__", 
+    "StockRole": "Light Striker & Scout", 
+    "YangsThoughts": "As the years went on, original Mongoose parts became very scarce. The 69 replaces its missing electronics with pair of flamers.", 
     "PrefabIdentifier": "chrprfmech_mongoosebase-001", 
     "PrefabBase": "mongoose", 
     "Tonnage": 25, 
@@ -24,7 +24,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 85, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 100, 
     "StabilityDefenses": [
         0, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 13, 
-    "MeleeInstability": 7, 
+    "MeleeDamage": 20, 
+    "MeleeInstability": 20, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 25, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 25, 
-    "DFAInstability": 13, 
+    "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"

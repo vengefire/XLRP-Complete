@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 860200, 
         "Rarity": 3, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Kintaro KTO-20", 
@@ -455,7 +455,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -466,7 +466,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -477,7 +477,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -499,5 +499,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 860200
+    "simGameMechPartCost": 750000
 }

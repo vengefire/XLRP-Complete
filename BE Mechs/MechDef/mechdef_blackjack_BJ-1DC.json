@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 728200, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Blackjack BJ-1DC", 
@@ -499,7 +499,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -543,5 +543,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 728200
+    "simGameMechPartCost": 637500
 }

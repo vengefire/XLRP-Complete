@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 2312200, 
         "Rarity": 5, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Nightstar NSR-9J", 
@@ -598,5 +598,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2312200
+    "simGameMechPartCost": 1425000
 }

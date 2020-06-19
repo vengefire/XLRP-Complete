@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_cyclops_CP-10-Z", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2181962, 
+        "Cost": 2181962,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Cyclops CP-10-Z", 
@@ -455,7 +455,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -466,7 +466,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -488,7 +488,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -510,7 +510,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -521,5 +521,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2181962
+    "simGameMechPartCost": 1275000
 }

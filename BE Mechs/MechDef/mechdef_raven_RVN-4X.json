@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 382872, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Raven RVN-4X", 
@@ -422,7 +422,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -433,7 +433,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -543,5 +543,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 382872
+    "simGameMechPartCost": 500000
 }

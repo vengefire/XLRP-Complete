@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 255672, 
-        "Rarity": 0, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Locust LCT-1V", 
@@ -202,7 +202,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -444,5 +444,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 255672
+    "simGameMechPartCost": 350000
 }

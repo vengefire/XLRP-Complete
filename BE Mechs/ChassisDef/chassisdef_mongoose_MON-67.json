@@ -1,7 +1,7 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1505490, 
+        "Cost": 3400000, 
         "Rarity": 0, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -9,7 +9,7 @@
         "UIName": "Mongoose", 
         "Id": "chassisdef_mongoose_MON-67", 
         "Name": "Mongoose", 
-        "Details": "The Mongoose was designed as a deep recon 'Mech and a competitor to the Locust.  Armed with one Small and three Medium Lasers, it packs more of a punch while keeping up with the Locust's speed.", 
+        "Details": "The MON-67 is the downgraded version of the MON-66 Mongoose introduced in 2830. The MON-67 removes the active probe and replaces the Endo Steel structure with a standard structure while the armor has been downgraded to standard plate armor. To keep the same level of protection as before, half a ton of armor has been added.", 
         "Icon": "uixTxrIcon_mongoose"
     }, 
     "VariantName": "MON-67", 
@@ -24,7 +24,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 85, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 100, 
     "StabilityDefenses": [
         0, 
@@ -42,8 +42,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 30, 
-    "MeleeInstability": 25, 
+    "MeleeDamage": 20, 
+    "MeleeInstability": 20, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 30, 
     "DFAToHitModifier": 0, 

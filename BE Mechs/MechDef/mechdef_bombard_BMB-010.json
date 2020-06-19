@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_bombard_BMB-010", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 823992, 
+        "Cost": 823992,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Bombard BMB-010", 
@@ -477,5 +477,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 823992
+    "simGameMechPartCost": 712500
 }

@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 694050, 
         "Rarity": 2, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Phoenix Hawk PXH-1K-RV", 
@@ -444,5 +444,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 694050
+    "simGameMechPartCost": 637500
 }

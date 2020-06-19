@@ -1,7 +1,7 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1668160, 
+        "Cost": 3800000, 
         "Rarity": 4, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -42,8 +42,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 30, 
-    "MeleeInstability": 30, 
+    "MeleeDamage": 25, 
+    "MeleeInstability": 25, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 40, 
     "DFAToHitModifier": 0, 

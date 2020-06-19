@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 794200, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hunchback HBK-4J", 
@@ -60,7 +60,7 @@
             "Location": "RightTorso", 
             "CurrentArmor": 120, 
             "CurrentRearArmor": 20, 
-            "CurrentInternalStructure": 84, 
+            "CurrentInternalStructure": 100, 
             "AssignedArmor": 120, 
             "AssignedRearArmor": 20
         }, 
@@ -178,29 +178,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
-            "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
-            "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
+        },  
         {
             "MountedLocation": "RightTorso", 
             "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK", 
@@ -222,7 +200,29 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "RightTorso", 
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
@@ -576,5 +576,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 794200
+    "simGameMechPartCost": 712500
 }

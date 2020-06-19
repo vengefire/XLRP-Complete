@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2733952, 
-        "Rarity": 0, 
-        "Purchasable": false, 
+        "Rarity": 8, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Mackie MSK-8B", 
@@ -42,7 +42,7 @@
             "Location": "CenterTorso", 
             "CurrentArmor": 290, 
             "CurrentRearArmor": 145, 
-            "CurrentInternalStructure": 160, 
+            "CurrentInternalStructure": 155, 
             "AssignedArmor": 290, 
             "AssignedRearArmor": 145
         }, 
@@ -477,5 +477,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2733952
+    "simGameMechPartCost": 1500000
 }

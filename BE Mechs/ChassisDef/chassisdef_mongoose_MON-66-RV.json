@@ -1,7 +1,7 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1505490, 
+        "Cost": 3400000, 
         "Rarity": 0, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -24,7 +24,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 85, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 100, 
     "StabilityDefenses": [
         0, 
@@ -42,8 +42,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 30, 
-    "MeleeInstability": 25, 
+    "MeleeDamage": 20, 
+    "MeleeInstability": 20, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 30, 
     "DFAToHitModifier": 0, 

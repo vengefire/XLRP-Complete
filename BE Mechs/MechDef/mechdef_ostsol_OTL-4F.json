@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_ostsol_OTL-4F", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1211328, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Cost": 1211328,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Ostsol OTL-4F", 
@@ -444,5 +444,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1211328
+    "simGameMechPartCost": 700000
 }

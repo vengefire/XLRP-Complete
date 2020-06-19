@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 295050, 
-        "Rarity": 0, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Commando COM-5S", 
@@ -532,5 +532,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 295050
+    "simGameMechPartCost": 425000
 }

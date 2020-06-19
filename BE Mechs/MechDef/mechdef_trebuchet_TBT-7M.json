@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 764472, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Trebuchet TBT-7M", 
@@ -203,7 +203,7 @@
         }, 
         {
             "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
             "HardpointSlot": -1, 
@@ -247,7 +247,7 @@
         }, 
         {
             "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
             "HardpointSlot": -1, 
@@ -587,5 +587,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 764472
+    "simGameMechPartCost": 712500
 }

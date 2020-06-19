@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 1982200, 
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Awesome AWS-8T", 
@@ -620,5 +620,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1982200
+    "simGameMechPartCost": 750000
 }

@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_hatchetman_HCT-3X-RV", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 714528, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 714528,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hatchetman HCT-3X-RV", 
@@ -332,18 +332,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "Gear_Actuator_Prototype_Hatchet", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "LeftArm", 
             "ComponentDefID": "emod_arm_part_hand", 
@@ -477,7 +466,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": null, 
             "ComponentDefType": "AmmunitionBox", 
@@ -576,5 +565,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 714528
+    "simGameMechPartCost": 637500
 }

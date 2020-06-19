@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 325450, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Mongoose MON-70", 
@@ -477,5 +477,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 325450
+    "simGameMechPartCost": 425000
 }

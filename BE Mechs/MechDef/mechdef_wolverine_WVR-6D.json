@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 836098, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Wolverine WVR-6D", 
@@ -488,7 +488,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -499,7 +499,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -510,5 +510,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 836098
+    "simGameMechPartCost": 750000
 }

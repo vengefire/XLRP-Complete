@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_crusader_CRD-4D", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1322200, 
+        "Cost": 1322200,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Crusader CRD-4D", 
@@ -290,7 +290,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -532,5 +532,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1322200
+    "simGameMechPartCost": 850000
 }

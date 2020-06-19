@@ -1,7 +1,13 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1895250, 
+        "Cost": 4000000, 
         "Rarity": 3, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -9,12 +15,12 @@
         "UIName": "Jenner", 
         "Id": "chassisdef_jenner_JR7-A", 
         "Name": "Jenner", 
-        "Details": "The original Jenner model mounted a Large Laser with a pair of Medium Lasers in a torso mounted turret.  While it was a solid fast moving 'Mech, its Argra 27C Medium Lasers suffered from a targetting defect.", 
+        "Details": "A Star League-era version of the Jenner that mounts a singular Large Laser.", 
         "Icon": "uixTxrIcon_jenner"
     }, 
     "VariantName": "JR7-A", 
     "StockRole": "Fast Striker Cavalry", 
-    "YangsThoughts": "I like the idea of mounting the Large Laser - those old Drac techs had the right idea, but they executed it poorly.  We should yank out the extra Medium Lasers and replace them with Heat Sinks.", 
+    "YangsThoughts": "I like the idea of mounting the Large Laser - those old Drac techs had the right idea, but they executed it poorly.", 
     "PrefabIdentifier": "chrPrfMech_jennerBase-001", 
     "PrefabBase": "jenner", 
     "Tonnage": 35, 
@@ -42,8 +48,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 35, 
-    "MeleeInstability": 35, 
+    "MeleeDamage": 30, 
+    "MeleeInstability": 30, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 45, 
     "DFAToHitModifier": 0, 
@@ -116,7 +122,16 @@
         }, 
         {
             "Location": "LeftArm", 
-            "Hardpoints": [], 
+            "Hardpoints": [
+				{
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                },
+				{
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+			], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
             "MaxArmor": 60, 
@@ -125,41 +140,7 @@
         }, 
         {
             "Location": "LeftTorso", 
-            "Hardpoints": [], 
-            "Tonnage": 0, 
-            "InventorySlots": 12, 
-            "MaxArmor": 80, 
-            "MaxRearArmor": 40, 
-            "InternalStructure": 40
-        }, 
-        {
-            "Location": "CenterTorso", 
-            "Hardpoints": [], 
-            "Tonnage": 0, 
-            "InventorySlots": 16, 
-            "MaxArmor": 110, 
-            "MaxRearArmor": 55, 
-            "InternalStructure": 55
-        }, 
-        {
-            "Location": "RightTorso", 
-            "Hardpoints": [
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "Energy"
-                }, 
-                {
-                    "Omni": false, 
-                    "WeaponMount": "AntiPersonnel"
-                }, 
+            "Hardpoints": [ 
                 {
                     "Omni": false, 
                     "WeaponMount": "AntiPersonnel"
@@ -172,8 +153,40 @@
             "InternalStructure": 40
         }, 
         {
-            "Location": "RightArm", 
+            "Location": "CenterTorso", 
+            "Hardpoints": [
+				{
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+			], 
+            "Tonnage": 0, 
+            "InventorySlots": 16, 
+            "MaxArmor": 110, 
+            "MaxRearArmor": 55, 
+            "InternalStructure": 55
+        }, 
+        {
+            "Location": "RightTorso", 
             "Hardpoints": [], 
+            "Tonnage": 0, 
+            "InventorySlots": 12, 
+            "MaxArmor": 80, 
+            "MaxRearArmor": 40, 
+            "InternalStructure": 40
+        }, 
+        {
+            "Location": "RightArm", 
+            "Hardpoints": [
+				{
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                },
+				{
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
+			], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
             "MaxArmor": 60, 

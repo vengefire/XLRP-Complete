@@ -1,7 +1,7 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 4260810, 
+        "Cost": 6000000, 
         "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -9,7 +9,7 @@
         "UIName": "Shadow Hawk", 
         "Id": "chassisdef_shadowhawk_SHD-2D-RV", 
         "Name": "Shadow Hawk", 
-        "Details": "The Shadow Hawk 2D-RV is an interesting reinvention from Aurigan space. It drops both SRM2 launchers and swaps it's Medium Lasers for COIL-M energy weapons .While maintaining excellent speed and jump jet capability for mobility it manages a moderate armor increase without hampering its combat effectiveness. Close in attacks are about as equivalent as its predecessor though how much the damage is done to a single location has significantly improved.", 
+        "Details": "The Shadow Hawk 2D-RV is an interesting reinvention from Aurigan space. It drops both SRM2 launchers, swaps it's Medium Lasers for COIL-M energy weapons and drops a half ton each of AC and LRM ammo. It improves upon it's predecessor's speed due to an uprated engine but at the cost of removing all Jump Jet systems. Along with a moderate armor increase this does not hamper it's combat effectiveness in shorter duration battles while increasing potential damage in brawling situations.", 
         "Icon": "uixTxrIcon_shadowhawk"
     }, 
     "VariantName": "SHD-2D-RV", 
@@ -24,7 +24,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 80, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 7, 
+    "MaxJumpjets": 2, 
     "Stability": 130, 
     "StabilityDefenses": [
         0, 
@@ -42,8 +42,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 85, 
-    "MeleeInstability": 55, 
+    "MeleeDamage": 50, 
+    "MeleeInstability": 50, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 70, 
     "DFAToHitModifier": 0, 
@@ -124,17 +124,17 @@
             "Location": "LeftArm", 
             "Hardpoints": [
                 {
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				}
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
@@ -146,9 +146,9 @@
             "Location": "LeftTorso", 
             "Hardpoints": [
                 {
-					"WeaponMount": "Ballistic",
-					"Omni": false
-				}
+                    "Omni": false, 
+                    "WeaponMount": "Ballistic"
+                }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
@@ -160,9 +160,9 @@
             "Location": "CenterTorso", 
             "Hardpoints": [
                 {
-					"WeaponMount": "Missile",
-					"Omni": false
-				}
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
@@ -174,9 +174,9 @@
             "Location": "RightTorso", 
             "Hardpoints": [
                 {
-					"WeaponMount": "Missile",
-					"Omni": false
-				}
+                    "Omni": false, 
+                    "WeaponMount": "Missile"
+                }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 
@@ -188,13 +188,13 @@
             "Location": "RightArm", 
             "Hardpoints": [
                 {
-					"WeaponMount": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				}
+                    "Omni": false, 
+                    "WeaponMount": "Energy"
+                }, 
+                {
+                    "Omni": false, 
+                    "WeaponMount": "AntiPersonnel"
+                }
             ], 
             "Tonnage": 0, 
             "InventorySlots": 12, 

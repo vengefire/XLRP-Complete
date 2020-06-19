@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2399962, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Kingcrab KGC-001", 
@@ -554,5 +554,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2399962
+    "simGameMechPartCost": 3000000
 }

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2323712, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Highlander HGN-736", 
@@ -533,17 +533,6 @@
         }, 
         {
             "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_TargetingTrackingSystem_ArtemisIV", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "emod_case", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
@@ -563,7 +552,18 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_TargetingTrackingSystem_ArtemisIV", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2323712
+    "simGameMechPartCost": 2550000
 }

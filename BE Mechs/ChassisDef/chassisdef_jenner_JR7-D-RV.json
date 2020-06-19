@@ -1,7 +1,13 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1914360, 
+        "Cost": 4000000, 
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -9,7 +15,7 @@
         "UIName": "Jenner", 
         "Id": "chassisdef_jenner_JR7-D-RV", 
         "Name": "Jenner", 
-        "Details": "Jenner D-RVs don't run nearly as hot as their predecessor but they can rack up a vast amount of heat. They excel at getting quickly into combat to deliver a knockout punch with thier twin COIL-M energy weapons which replace the original Medium Lasers. Their capability with speed and extensive increase in armor compared to other variants does come at the expense of less weapo redundancy as this variant also loses an SRM.", 
+        "Details": "Jenner D-RVs don't run nearly as hot as their predecessor but they also don't have any jump jets either. They do however excel at getting quickly into combat to deliver a knockout punch with thier twin COIL-M energy weapons which replace the original Medium Lasers; all thanks to an uprated engine. Their capability with speed and extensive increase in armor compared to other variants does come at the expense of less weapo redundancy as this variant also loses an SRM.", 
         "Icon": "uixTxrIcon_jenner"
     }, 
     "VariantName": "JR7-D-RV", 
@@ -24,7 +30,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 85, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 100, 
     "StabilityDefenses": [
         0, 
@@ -42,8 +48,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 35, 
-    "MeleeInstability": 35, 
+    "MeleeDamage": 30, 
+    "MeleeInstability": 30, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 45, 
     "DFAToHitModifier": 0, 

@@ -1,7 +1,12 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 9728640, 
+        "Cost": 6000000, 
         "Rarity": 4, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -10,7 +15,7 @@
         "Id": "chassisdef_hatamotomizo_HTM-27Y", 
         "Name": "Hatamoto-Mizo", 
         "Details": "The Hatamoto-Mizo trades out the original SRMs for an ER Large Laser, removing the reliance on ammunition from the 'Mech.  Having the ER LL with the two PPCs along with a full compliment of armor makes the Mizo a very formidable foe.", 
-        "Icon": "uixTxrIcon_hatamoto"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "VariantName": "HTM-27Y", 
     "StockRole": "Heavy Sniper & Defender", 
@@ -24,7 +29,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 105, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 5, 
+    "MaxJumpjets": 2, 
     "Stability": 200, 
     "StabilityDefenses": [
         0, 
@@ -39,11 +44,11 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 8, 
-    "PunchesWithLeftArm": true, 
+    "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 110, 
-    "MeleeInstability": 80, 
+    "MeleeDamage": 75, 
+    "MeleeInstability": 75, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 100, 
     "DFAToHitModifier": 0, 

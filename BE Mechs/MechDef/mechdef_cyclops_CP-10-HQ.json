@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2202200, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Cyclops CP-10-HQ", 
@@ -356,7 +356,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": null, 
             "ComponentDefType": "AmmunitionBox", 
@@ -466,5 +466,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2202200
+    "simGameMechPartCost": 1275000
 }

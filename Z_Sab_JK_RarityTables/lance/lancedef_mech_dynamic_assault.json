@@ -37,14 +37,11 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-               "unit_urbie",
+				"BLACKLISTED",
                "unit_very_rare_{CUR_TEAM.faction}",
                "unit_ext_rare_{CUR_TEAM.faction}",
                "unit_none_{CUR_TEAM.faction}",
                "unit_hero_{CUR_TEAM.faction}",
-               "unit_LosTech",
-               "unit_era_2750",
-               "unit_era_2900",
                "unit_clan",
                "unit_armor_low"
             ],
@@ -76,15 +73,12 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-               "unit_urbie",
+				"BLACKLISTED",
                "unit_rare_{CUR_TEAM.faction}",
                "unit_very_rare_{CUR_TEAM.faction}",
                "unit_ext_rare_{CUR_TEAM.faction}",
                "unit_none_{CUR_TEAM.faction}",
                "unit_hero_{CUR_TEAM.faction}",
-               "unit_LosTech",
-               "unit_era_2750",
-               "unit_era_2900",
                "unit_clan",
                "unit_armor_low"
             ],
@@ -116,13 +110,10 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-               "unit_urbie",
+				"BLACKLISTED",
                "unit_ext_rare_{CUR_TEAM.faction}",
                "unit_none_{CUR_TEAM.faction}",
                "unit_hero_{CUR_TEAM.faction}",
-               "unit_LosTech",
-               "unit_era_2750",
-               "unit_era_2900",
                "unit_clan"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
@@ -153,15 +144,12 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-               "unit_urbie",
+				"BLACKLISTED",
                "unit_rare_{CUR_TEAM.faction}",
                "unit_very_rare_{CUR_TEAM.faction}",
                "unit_ext_rare_{CUR_TEAM.faction}",
                "unit_none_{CUR_TEAM.faction}",
                "unit_hero_{CUR_TEAM.faction}",
-               "unit_LosTech",
-               "unit_era_2750",
-               "unit_era_2900",
                "unit_clan"
             ],
 			"tagSetSourceFile" : "Tags/UnitTags"

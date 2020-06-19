@@ -1,6 +1,6 @@
 {
 	"Description": {
-		"Cost": 13100000,
+		"Cost": 12000000,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "",
@@ -23,7 +23,7 @@
 	"Heatsinks": 0,
 	"TopSpeed": 60,
 	"TurnRadius": 90,
-	"MaxJumpjets": 30,
+	"MaxJumpjets": 2,
 	"Stability": 200,
 	"StabilityDefenses": [
 		0,
@@ -39,8 +39,8 @@
 	"Signature": 0,
 	"Radius": 8,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 140,
-	"MeleeInstability": 100,
+	"MeleeDamage": 95,
+	"MeleeInstability": 95,
 	"MeleeToHitModifier": 0,
 	"DFADamage": 125,
 	"DFAToHitModifier": 0,

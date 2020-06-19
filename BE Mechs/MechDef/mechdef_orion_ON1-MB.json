@@ -10,14 +10,14 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1470528, 
-        "Rarity": 3, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Orion ON1-MB", 
         "Id": "mechdef_orion_ON1-MB", 
         "Name": "Orion", 
-        "Details": "A minor variant of the ON1-M. The LB-10 X Autocannon is swapped for a light Gauss Rifle with a single ton of ammunition and the Medium Lasers are replaced with Pulse Lasers.", 
+        "Details": "A second variant of the ON1-M swaps the LB-10 X Autocannon for a Gauss Rifle with a single ton of ammunition and the Medium Lasers are replaced with extended range versions.", 
         "Icon": "uixTxrIcon_orion"
     }, 
     "RequiredToSpawnCompanyTags": {
@@ -543,5 +543,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1470528
+    "simGameMechPartCost": 1000000
 }

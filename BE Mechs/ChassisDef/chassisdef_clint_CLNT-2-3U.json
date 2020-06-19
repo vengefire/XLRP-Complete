@@ -1,7 +1,12 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "RightLimit": "Lower",
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 3561240, 
+        "Cost": 4200000, 
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -13,8 +18,8 @@
         "Icon": "uixTxrIcon_clint"
     }, 
     "VariantName": "CLNT-2-3U", 
-    "StockRole": "__/Base_3061.chassisdef_clint_CLNT-2-3U.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_clint_CLNT-2-3U.YangsThoughts/__", 
+    "StockRole": "Recon & Fire Support", 
+    "YangsThoughts": "A hotter variant of the Clint, it has freed itself of ammunition concerns by using only energy weapons.", 
     "PrefabIdentifier": "chrprfmech_clintbase-001", 
     "PrefabBase": "clint", 
     "Tonnage": 40, 
@@ -39,16 +44,16 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 5, 
-    "PunchesWithLeftArm": false, 
+    "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 20, 
-    "MeleeInstability": 10, 
+    "MeleeDamage": 35, 
+    "MeleeInstability": 35, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 40, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 40, 
-    "DFAInstability": 20, 
+    "DFAInstability": 40, 
     "ChassisTags": {
         "items": [
             "unit_mechtool"
@@ -108,7 +113,7 @@
         {
             "Location": "Head", 
             "Hardpoints": [], 
-            "Tonnage": 1, 
+            "Tonnage": 0, 
             "InventorySlots": 4, 
             "MaxArmor": 45, 
             "MaxRearArmor": -1, 

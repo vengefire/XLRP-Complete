@@ -1,4 +1,10 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
+        },
+    },
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso", 
@@ -10,10 +16,21 @@
             "DamageLevel": "Functional", 
             "prefabName": "", 
             "hasPrefabName": true
-        }
+        },
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_TSM", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
     ], 
     "Description": {
-        "Cost": 1914360, 
+        "Cost": 4000000, 
         "Rarity": 5, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -36,7 +53,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 210, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 100, 
     "StabilityDefenses": [
         0, 
@@ -54,7 +71,7 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 20, 
+    "MeleeDamage": 30, 
     "MeleeInstability": 30, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 35, 

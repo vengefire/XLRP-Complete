@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 347328, 
-        "Rarity": 0, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "UrbanMech UM-R60", 
@@ -499,5 +499,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 347328
+    "simGameMechPartCost": 475000
 }

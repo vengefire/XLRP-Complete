@@ -1,7 +1,13 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 11999810, 
+        "Cost": 24000000, 
         "Rarity": 5, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -24,7 +30,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 105, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 4, 
+    "MaxJumpjets": 2, 
     "Stability": 200, 
     "StabilityDefenses": [
         0, 
@@ -42,8 +48,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 165, 
-    "MeleeInstability": 100, 
+    "MeleeDamage": 95, 
+    "MeleeInstability": 95, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 125, 
     "DFAToHitModifier": 0, 

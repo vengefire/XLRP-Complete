@@ -1,0 +1,31 @@
+{
+   "ID" : "shopdef_Components_special_3",
+   "RequirementTags" : {
+      "items" : [
+		 "planet_other_starleague"
+	  ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : [
+	{
+         "ID" : "Gear_HeatSink_Generic_Double",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 2
+      },
+	{
+         "ID" : "emod_kit_dhs",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+		 "Weight" : 2
+      }
+   ]
+}

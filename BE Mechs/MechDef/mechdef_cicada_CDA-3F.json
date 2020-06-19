@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 631050, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Cicada CDA-3F", 
@@ -499,5 +499,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 631050
+    "simGameMechPartCost": 525000
 }

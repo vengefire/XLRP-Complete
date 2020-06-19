@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 844128, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Shadowhawk SHD-5M", 
@@ -312,7 +312,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -532,7 +532,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -565,5 +565,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 844128
+    "simGameMechPartCost": 750000
 }

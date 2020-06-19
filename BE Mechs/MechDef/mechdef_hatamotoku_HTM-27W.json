@@ -10,15 +10,15 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1909272, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Hatamotoku HTM-27T", 
+        "UIName": "Hatamoto-Ku HTM-27W", 
         "Id": "mechdef_hatamotoku_HTM-27W", 
         "Name": "Hatamoto-Ku", 
         "Details": "The Hatamoto-Ku removes both of the SRM-6 launchers and replaces them with an Autocannon/5. The 'Mech has a powerful direct fire capability.", 
-        "Icon": "uixTxrIcon_hatamotochi"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "RequiredToSpawnCompanyTags": {
         "items": [], 
@@ -466,7 +466,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -499,7 +499,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -510,5 +510,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1909272
+    "simGameMechPartCost": 750000
 }

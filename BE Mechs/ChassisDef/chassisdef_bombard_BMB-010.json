@@ -1,4 +1,10 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
+        },
+    },
     "FixedEquipment": [
       {
             "MountedLocation": "CenterTorso", 
@@ -13,7 +19,7 @@
         }
     ], 
     "Description": {
-        "Cost": 4119960, 
+        "Cost": 5700000, 
         "Rarity": 4, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -25,7 +31,7 @@
         "Icon": "uixTxrIcon_bombard"
     }, 
     "VariantName": "BMB-010", 
-    "StockRole": "__/Base_3061.chassisdef_bombard_BMB-010.StockRole/__", 
+    "StockRole": "Juggernaut & Close Assault", 
     "YangsThoughts": "Well, that Bombard certainly is something special. Even much heavier opponents can not approach the BMB-010 straight on with a frontal assault and not worry about getting blown to pieces. But it's slow and ponderous and experienced pilots will just pick it apart with ranged weapons or try to flank it and get into the rear.", 
     "PrefabIdentifier": "chrprfmech_bombardbase-001", 
     "PrefabBase": "bombard", 
@@ -36,8 +42,8 @@
     "Heatsinks": 0, 
     "TopSpeed": 65, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
-    "Stability": 100, 
+    "MaxJumpjets": 2, 
+    "Stability": 140, 
     "StabilityDefenses": [
         0, 
         0, 
@@ -54,13 +60,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 25, 
-    "MeleeInstability": 13, 
+    "MeleeDamage": 45, 
+    "MeleeInstability": 45, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 50, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 50, 
-    "DFAInstability": 25, 
+    "DFAInstability": 50, 
     "ChassisTags": {
         "items": [
             "HeavyPlatform", 

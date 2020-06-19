@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 836098, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Shadowhawk - SHD-2K", 
@@ -543,5 +543,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 836098
+    "simGameMechPartCost": 750000
 }

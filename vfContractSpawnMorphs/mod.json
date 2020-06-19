@@ -13,16 +13,17 @@
   ],
   "Settings": {
     "SomeCoolSetting": "DefaultCoolSetting",
-    "LogLevel": "Error",
+    "LogLevel": "DeBug",
     "Procedurally Morph Contract Unit Spawns": {
-      "RarityWeightingDaysDivisor": 30.0,
+      "RarityWeightingDaysDivisor": 60.0,
       "MaxRarityWeighting": 6,
       "Enabled": true,
       "LogLevel": "Error"
     },
 	"UnitAppearanceDateMorphFeature": {
-      "CompressionFactorControlDate": "3028-04-28T00:00:00",
-      "CompressionFactorTargetDate": "3026-01-01T00:00:00",
+	  "UseTimeAccelerationFactor": true,
+      "CompressionFactorControlDate": "3029-01-01",
+      "CompressionFactorTargetDate": "3025-01-01",
       "Enabled": true,
       "LogLevel": "Error"
     }

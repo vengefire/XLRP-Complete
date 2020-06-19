@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 714528, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 1, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Vindicator VND-1X", 
@@ -191,7 +191,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftArm", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -598,5 +598,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 714528
+    "simGameMechPartCost": 637500
 }

@@ -1,7 +1,13 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1331000, 
+        "Cost": 2800000, 
         "Rarity": 0, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -14,7 +20,7 @@
     }, 
     "VariantName": "LCT-3S", 
     "StockRole": "Light Striker & Scout", 
-    "YangsThoughts": "__/Base_3061.chassisdef_locust_LCT-3S.YangsThoughts/__", 
+    "YangsThoughts": "It's about as much firepower as you can fit into a tiny, fast package, commander.", 
     "PrefabIdentifier": "chrPrfMech_locustBase-001", 
     "PrefabBase": "locust", 
     "Tonnage": 20, 
@@ -24,7 +30,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 210, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 100, 
     "StabilityDefenses": [
         0, 
@@ -42,13 +48,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 10, 
-    "MeleeInstability": 5, 
+    "MeleeDamage": 15, 
+    "MeleeInstability": 15, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 20, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 20, 
-    "DFAInstability": 10, 
+    "DFAInstability": 20, 
     "ChassisTags": {
         "items": [
             "AbundantBaffles", 

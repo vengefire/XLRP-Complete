@@ -1,16 +1,16 @@
 {
   "DebugMode": true,
-  "VersionCheck": true,
-  "DebugSkirmishMode": true,
+  "VersionCheck": false,
+  "DebugSkirmishMode": false,
   "DisableIfFlashpointContract": true,
   "RandomSpawns": {
-    "Enable": false,
-    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"]
+    "Enable": true,
+    "ExcludeContractTypes": ["SoloDuel", "DuoDuel", "EscortSingle", "CaptureEscort" ]
   },
   "HotDrop": {
     "Enable": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
-    "GuardOnHotDrop": true,
+    "GuardOnHotDrop": false,
     "EvasionPipsOnHotDrop": 6,
     "IncludeEnemies": true,
     "IncludeAllyTurrets": false,
@@ -19,8 +19,12 @@
   "AdditionalLances": {
     "Enable": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
-    "IsPrimaryObjectiveIn": ["SimpleBattle", "ThreeWayBattle"],
-    "UseElites": true,
+    "IsPrimaryObjectiveIn": ["SimpleBattle", "CaptureBase"],
+    "ExcludeFromAutocomplete": ["DefendBase", "FireMission"],
+    "HideObjective": true,
+    "ShowObjectiveOnLanceDetected": true,
+    "AlwaysDisplayHiddenObjectiveIfPrimary": false,
+    "UseElites": false,
     "UseDialogue": true,
     "SkullValueMatters": true,
     "BasedOnVisibleSkullValue": true,
@@ -31,19 +35,31 @@
       "Limited": false,
       "LimitedToUnder": 300
     },
-    "MatchAllyLanceCountToEnemy": false
+    "MatchAllyLanceCountToEnemy": true,
+    "DropWeightInfluence": {
+      "Enable": false,
+      "EnemySpawnInfluencePerHalfSkullAbove": 0.1,
+      "AllySpawnInfluencePerHalfSkullAbove": -0.1,
+      "EnemySpawnInfluencePerHalfSkullBelow": 0.1,
+      "AllySpawnInfluencePerHalfSkullBelow": -0.1
+    },
+    "DisableAllies": false,
+    "DisableEnemies": false
   },
   "ExtendedLances": {
-    "Enable": true,
+    "Enable": false,
     "Autofill": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "SkipWhenTaggedWithAny": ["lance_type_solo"],
+    "SkipWhenTaggedWithAll": [],
+    "SkipWhenExcludeTagsContain": ["no_extended_lance"],
     "LanceSizes": {
       "5": [],
       "6": []
     }
   },
   "ExtendedBoundaries": {
-    "Enable": false,
+    "Enable": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "IncreaseBoundarySizeByPercentage": 0.3,
     "Overrides": [
@@ -65,6 +81,11 @@
       {
         "ContractTypeName": "FireMission",
         "IncreaseBoundarySizeByPercentage": 0.5
+      },
+      {
+        "MapId": "mapGeneral_desertDam_aDes",
+        "ContractTypeName": "SimpleBattle",
+        "IncreaseBoundarySizeByPercentage": 0.55
       }
     ]
   },
@@ -72,15 +93,24 @@
     "Enable": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "MinDistanceForZone": 50,
-    "MaxDistanceForZone": 400,
+    "MaxDistanceForZone": 288,
     "DisorderlyWithdrawalCompatibility": false
   },
   "AI": {
     "FollowPlayer": {
+      "Pathfinding": "Alternative",
       "Target": "HeaviestMech",
       "StopWhen": "OnEnemyDetected",
       "MaxDistanceFromTargetBeforeSprinting": 120,
-      "TargetZoneRadius": 120
+      "TargetZoneRadius": 120,
+      "TimeToWaitForPathfinding": 60,
+      "TicksToWaitForPathfinding": 20
+    }
+  },
+  "Spawners": {
+    "SpawnLanceAtEdgeBoundary": {
+      "MinBuffer": 100,
+      "MaxBuffer": 200
     }
   }
 }

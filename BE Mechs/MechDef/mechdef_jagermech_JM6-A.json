@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_jagermech_JM6-A", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1322200, 
+        "Cost": 1322200,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Jagermech JM6-A", 
@@ -422,7 +422,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -433,7 +433,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -444,7 +444,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -455,5 +455,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1322200
+    "simGameMechPartCost": 850000
 }

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1945728, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Rifleman II RFL-3N-2", 
@@ -466,7 +466,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -477,7 +477,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -499,5 +499,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1945728
+    "simGameMechPartCost": 1500000
 }

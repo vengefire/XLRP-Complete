@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_hatchetman_HCT-3F", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 707698, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 707698,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hatchetman HCT-3F", 
@@ -277,18 +277,7 @@
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "Gear_Actuator_Prototype_Hatchet", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
+        },
         {
             "MountedLocation": "RightArm", 
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
@@ -532,7 +521,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -543,7 +532,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -565,5 +554,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 707698
+    "simGameMechPartCost": 637500
 }

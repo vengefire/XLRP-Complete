@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2055192, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Awesome AWS-9Q", 
@@ -554,5 +554,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2055192
+    "simGameMechPartCost": 750000
 }

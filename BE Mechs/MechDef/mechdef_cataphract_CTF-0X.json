@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_cataphract_CTF-0X", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1371098, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Cost": 1371098,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Cataphract CTF-0X", 
@@ -466,7 +466,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -488,5 +488,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1371098
+    "simGameMechPartCost": 950000
 }

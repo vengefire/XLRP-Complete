@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 801642, 
         "Rarity": 2, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hunchback HBK-4SP", 
@@ -60,7 +60,7 @@
             "Location": "RightTorso", 
             "CurrentArmor": 100, 
             "CurrentRearArmor": 20, 
-            "CurrentInternalStructure": 84, 
+            "CurrentInternalStructure": 100, 
             "AssignedArmor": 100, 
             "AssignedRearArmor": 20
         }, 
@@ -356,7 +356,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -367,7 +367,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -620,5 +620,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 801642
+    "simGameMechPartCost": 712500
 }

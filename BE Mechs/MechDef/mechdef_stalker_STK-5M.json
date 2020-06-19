@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2092200, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Stalker STK-5M", 
@@ -202,7 +202,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
+            "MountedLocation": "LeftArm", 
             "ComponentDefID": "Gear_HeatSink_Generic_Double", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
@@ -257,7 +257,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightTorso", 
+            "MountedLocation": "RightArm", 
             "ComponentDefID": "Gear_HeatSink_Generic_Double", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
@@ -565,7 +565,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -576,7 +576,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -598,7 +598,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftArm", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_Narc", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -609,7 +609,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -620,7 +620,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -642,5 +642,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2092200
+    "simGameMechPartCost": 1050000
 }

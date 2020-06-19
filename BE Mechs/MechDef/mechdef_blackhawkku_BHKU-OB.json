@@ -10,16 +10,17 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1188472, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
-        "UIName": "Blackhawk-KU BHKU-OB", 
+        "UIName": "Black Hawk-KU", 
         "Id": "mechdef_blackhawkku_BHKU-OB", 
         "Name": "Black Hawk-KU", 
         "Details": "The Black Hawk-KU is an Inner Sphere version of the Clan Black Hawk OmniMech. In order to make it possible to copy the Black Hawk, the Black Hawk-KU is built ten tons heavier than its Clan counterpart. The B configuration carries an Ultra Autocannon/5 for long range firepower and for accurate short range defense the B configuration carries a Large Pulse Laser.", 
-        "Icon": "uixTxrIcon_nova"
+        "Icon": "uixTxrIcon_blackhawkku"
     }, 
+    "VariantName": "BHKU-OB",
     "RequiredToSpawnCompanyTags": {
         "items": [], 
         "tagSetSourceFile": ""
@@ -400,7 +401,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -510,5 +511,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1188472
+    "simGameMechPartCost": 700000
 }

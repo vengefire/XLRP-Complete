@@ -1,6 +1,6 @@
 ﻿{
   "Name": "vfBattleTechMod-ProcGenStores",
-  "Author": "vengefire",
+  "Author": "vengefire and donZappo",
   "Website": "https://github.com/vengefire/",
   "Enabled": true,
   "Hidden": false,
@@ -10,26 +10,55 @@
   "CustomResourceTypes": [],
   "DLL": "vfBattleTechMod-ProcGenStores.dll",
   "Manifest": [
+		{
+			"Type": "ShopDef",
+			"Path": "shopDefs",
+			"AddToDB": true
+		},
+		{
+            "Type": "ItemCollectionDef",
+            "Path": "itemCollections"
+        }
   ],
   "Settings": {
     "SomeCoolSetting": "DefaultCoolSetting",
     "LogLevel": "Error",
     "Procedurally Generate Store Contents": {
       "Enabled": true,
-      "StoreItemSourceFile": "./res/test-xlrp-store-content.xlsx",
+	  "EquipmentAppearanceByMechs": false,
+      "StoreItemSourceFile": "./res/test-BTR-store-content.xlsx",
       "MechAppearanceFile": "./res/BattleMech_Unit_Listing - canon.csv",
-      "CascadeRollsOnFail": true,
+      "CascadeRollsOnFail": false,
       "MaxItemRarityForCascadeQualification": "Uncommon",
       "UseAdditiveForModifiers": false,
+	  "AmmoStoreLimit" : 5,
+	  "HeatSinkStoreLimit" : 5,
+	  "JumpJetStoreLimit" : 5,
+	  "MechStoreLimit" : 4,
+	  "FullMechChance" : 0.15,
+	  "UpgradeStoreLimit" : 5,
+	  "WeaponStoreLimit" : 5,
+	  "StoreSizeModifiers" : {
+		"planet_other_plague": -2,
+		"planet_pop_none": -1,
+		"planet_pop_small": -1,
+		"planet_pop_medium": 0,
+		"planet_other_battlefield": 1,
+		"planet_pop_large": 1,
+		"planet_other_hub": 1,
+		"planet_other_megacity": 2,
+		"planet_other_capital": 2,
+	  },
+	  
       "BlackMarketSettings": {
         "BlackMarketMinBaseRarity": "VeryUncommon",
         "BlackMarketMaxBaseRarity": "PracticallyExtinct",
         "BlackMarketAppearanceModifier": 1.5,
         "BlackMarketQuantityModifier": 0.5,
-        "CircumventRequiredPlanetTags": false,
-        "CircumventRestrictedPlanetTags": false,
-        "CircumventFactionRestrictions": false,
-        "CascadeRollsOnFail": true,
+        "CircumventRequiredPlanetTags": true,
+        "CircumventRestrictedPlanetTags": true,
+        "CircumventFactionRestrictions": true,
+        "CascadeRollsOnFail": false,
         "MaxItemRarityForCascadeQualification": "Extinct"
       },
       "FactionMarketSettings": {
@@ -41,14 +70,14 @@
       "RarityBrackets": [
         {
           "Name": "Ubiquitous",
-          "ChanceToAppear": 1,
+          "ChanceToAppear": 100,
           "Description": "",
           "QuantityBracket": {
             "Name": "Ubiquitous",
             "LowCount": -1,
             "HighCount": -1
           },
-          "Order": 0
+          "Order": -1
         },
         {
           "Name": "VeryCommon",
@@ -56,19 +85,19 @@
           "Description": "",
           "QuantityBracket": {
             "Name": "VeryCommon",
-            "LowCount": 10,
-            "HighCount": 25
+            "LowCount": 4,
+            "HighCount": 4
           },
           "Order": 1
         },
         {
           "Name": "Common",
-          "ChanceToAppear": 0.8,
+          "ChanceToAppear": 0.75,
           "Description": "",
           "QuantityBracket": {
             "Name": "Common",
-            "LowCount": 5,
-            "HighCount": 10
+            "LowCount": 3,
+            "HighCount": 4
           },
           "Order": 2
         },
@@ -78,8 +107,8 @@
           "Description": "",
           "QuantityBracket": {
             "Name": "Uncommon",
-            "LowCount": 1,
-            "HighCount": 5
+            "LowCount": 2,
+            "HighCount": 4
           },
           "Order": 3
         },
@@ -90,7 +119,7 @@
           "QuantityBracket": {
             "Name": "VeryUncommon",
             "LowCount": 1,
-            "HighCount": 2
+            "HighCount": 4
           },
           "Order": 4
         },
@@ -101,7 +130,7 @@
           "QuantityBracket": {
             "Name": "Rare",
             "LowCount": 1,
-            "HighCount": 2
+            "HighCount": 3
           },
           "Order": 5
         },
@@ -112,7 +141,7 @@
           "QuantityBracket": {
             "Name": "VeryRare",
             "LowCount": 1,
-            "HighCount": 1
+            "HighCount": 2
           },
           "Order": 6
         },
@@ -141,21 +170,21 @@
       ],
       "PlanetTagModifiers": [
         {
+          "Tag": "planet_pop_none",
+          "ChanceModifier": 0.5,
+          "QuantityModifier": 0.5,
+          "Description": "",
+          "AppliesToStock": true,
+          "AppliesToLosTech": true,
+          "AppliesToFaction": false
+        },
+        {
           "Tag": "planet_pop_small",
           "ChanceModifier": 0.75,
           "QuantityModifier": 0.75,
           "Description": "",
           "AppliesToStock": true,
-          "AppliesToLosTech": false,
-          "AppliesToFaction": false
-        },
-        {
-          "Tag": "planet_pop_none",
-          "ChanceModifier": 0.0,
-          "QuantityModifier": 0.0,
-          "Description": "",
-          "AppliesToStock": true,
-          "AppliesToLosTech": false,
+          "AppliesToLosTech": true,
           "AppliesToFaction": false
         },
         {
@@ -164,16 +193,25 @@
           "QuantityModifier": 1,
           "Description": "",
           "AppliesToStock": true,
-          "AppliesToLosTech": false,
+          "AppliesToLosTech": true,
           "AppliesToFaction": false
         },
         {
           "Tag": "planet_pop_large",
-          "ChanceModifier": 1.15,
-          "QuantityModifier": 1.15,
+          "ChanceModifier": 1.1,
+          "QuantityModifier": 1.1,
           "Description": "",
           "AppliesToStock": true,
-          "AppliesToLosTech": false,
+          "AppliesToLosTech": true,
+          "AppliesToFaction": false
+        },
+        {
+          "Tag": "planet_other_megacity",
+          "ChanceModifier": 1.1,
+          "QuantityModifier": 1.1,
+          "Description": "",
+          "AppliesToStock": true,
+          "AppliesToLosTech": true,
           "AppliesToFaction": false
         }
       ]

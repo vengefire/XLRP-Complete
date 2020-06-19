@@ -1,7 +1,12 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "RightLimit": "Lower",
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1952640, 
+        "Cost": 4000000, 
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -24,7 +29,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 85, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 100, 
     "StabilityDefenses": [
         0, 
@@ -39,11 +44,11 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 4, 
-    "PunchesWithLeftArm": false, 
+    "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 50, 
-    "MeleeInstability": 35, 
+    "MeleeDamage": 30, 
+    "MeleeInstability": 30, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 35, 
     "DFAToHitModifier": 0, 
@@ -109,7 +114,7 @@
         {
             "Location": "Head", 
             "Hardpoints": [], 
-            "Tonnage": 1, 
+            "Tonnage": 0, 
             "InventorySlots": 4, 
             "MaxArmor": 45, 
             "MaxRearArmor": -1, 

@@ -1,7 +1,12 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 9728640, 
+        "Cost": 6000000, 
         "Rarity": 4, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -10,7 +15,7 @@
         "Id": "chassisdef_hatamotochi_HTM-26T", 
         "Name": "Hatamoto-Chi", 
         "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger. The HTM-26T was first seen in 3039 and very little was known about it.  Armed with a pair of PPCs and a pair of SRM-6s, the Hatamoti-Chi can deliver a solid amount of damage at both short and long range, and can be devastating at mid-range.", 
-        "Icon": "uixTxrIcon_hatamoto"
+        "Icon": "uixTxrIcon_hatamoto-chi"
     }, 
     "VariantName": "HTM-26T", 
     "StockRole": "Heavy Sniper & Defender", 
@@ -24,7 +29,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 105, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 5, 
+    "MaxJumpjets": 2, 
     "Stability": 200, 
     "StabilityDefenses": [
         0, 
@@ -39,11 +44,11 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 8, 
-    "PunchesWithLeftArm": true, 
+    "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 110, 
-    "MeleeInstability": 80, 
+    "MeleeDamage": 75, 
+    "MeleeInstability": 75, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 100, 
     "DFAToHitModifier": 0, 

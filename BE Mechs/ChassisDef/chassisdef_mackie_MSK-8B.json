@@ -1,7 +1,12 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "RightLimit": "Upper"
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 13669760, 
+        "Cost": 12000000, 
         "Rarity": 0, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -13,8 +18,8 @@
         "Icon": "uixTxrIcon_mackie"
     }, 
     "VariantName": "MSK-8B", 
-    "StockRole": "__/Base_3061.chassisdef_mackie_MSK-8B.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_mackie_MSK-8B.YangsThoughts/__", 
+    "StockRole": "Juggernaut", 
+    "YangsThoughts": "This belongs in a museum.", 
     "PrefabIdentifier": "chrprfmech_mackiebase-001", 
     "PrefabBase": "mackie", 
     "Tonnage": 100, 
@@ -24,7 +29,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 65, 
     "TurnRadius": 220, 
-    "MaxJumpjets": 4, 
+    "MaxJumpjets": 2, 
     "Stability": 80, 
     "StabilityDefenses": [
         0, 
@@ -39,11 +44,11 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 4, 
-    "PunchesWithLeftArm": false, 
+    "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 50, 
-    "MeleeInstability": 25, 
+    "MeleeDamage": 95, 
+    "MeleeInstability": 95, 
     "MeleeToHitModifier": -1, 
     "DFADamage": 100, 
     "DFAToHitModifier": 0, 
@@ -200,9 +205,9 @@
             ], 
             "Tonnage": 0, 
             "InventorySlots": 16, 
-            "MaxArmor": 320, 
-            "MaxRearArmor": 160, 
-            "InternalStructure": 160
+            "MaxArmor": 310, 
+            "MaxRearArmor": 155, 
+            "InternalStructure": 155
         }, 
         {
             "Location": "RightTorso", 

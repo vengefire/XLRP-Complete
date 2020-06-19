@@ -1,7 +1,13 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+      "RightLimit": "Lower"
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 3186360, 
+        "Cost": 4200000, 
         "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -9,12 +15,12 @@
         "UIName": "Vulcan", 
         "Id": "chassisdef_vulcan_VL-5T-RV", 
         "Name": "Vulcan", 
-        "Details": "Based on a popular FedSuns chassis, the 5T-RV improves the anti-vehicle capabilities of the 'Mech while maintaining its legendary mobility. Two COIL-S energy weapons replace the Flamer and Machine Gun while two Medium Lasers are replaced by a single COIL-M. The overall armor has been improved.", 
+        "Details": "Based on a popular FedSuns chassis, the 5T-RV improves the anti-vehicle capabilities of the 'Mech while drastically improving armor at the cost of its legendary mobility. Two COIL-S energy weapons replace the Flamer and Machine Gun while four Medium Lasers are replaced by a two COIL-M weapons in the same torso locations. While the Jump Jets are no longer present, the armor increase and improved weaponry maintains the 'Mechs survivability.", 
         "Icon": "uixTxrIcon_vulcan"
     }, 
     "VariantName": "VL-5T-RV", 
     "StockRole": "Striker", 
-    "YangsThoughts": "This 'Mech packs a serious punch at the cost of heat buildup while keeping it's mobility thanks to a multitude of jump jets. It's generally considered to be \"better\" than the 5T and 2T but is even harder to come by.", 
+    "YangsThoughts": "This 'Mech packs a serious punch at the cost of heat buildup while keeping its pilot safe behind added armor; all at the cost of mobility thanks to losing jump jets its parent chassis was known for. It's generally considered to be \"better\" than the 5T and 2T but is even harder to come by.", 
     "PrefabIdentifier": "chrPrfMech_vulcanBase-001", 
     "PrefabBase": "vulcan", 
     "Tonnage": 40, 
@@ -24,7 +30,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 0, 
     "TurnRadius": 0, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 130, 
     "StabilityDefenses": [
         0, 
@@ -42,8 +48,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 50, 
-    "MeleeInstability": 40, 
+    "MeleeDamage": 35, 
+    "MeleeInstability": 35, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 50, 
     "DFAToHitModifier": 0, 

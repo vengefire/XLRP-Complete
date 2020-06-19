@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 263562, 
         "Rarity": 2, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Flea FLE-15", 
@@ -444,7 +444,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -510,5 +510,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 263562
+    "simGameMechPartCost": 350000
 }

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 258298, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Wasp WSP-1W", 
@@ -576,5 +576,5 @@
             "hasPrefabName": false
         }, 
     ], 
-    "simGameMechPartCost": 258298
+    "simGameMechPartCost": 350000
 }

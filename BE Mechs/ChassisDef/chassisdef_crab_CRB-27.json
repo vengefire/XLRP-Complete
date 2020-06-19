@@ -1,13 +1,18 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 3859490, 
+        "Cost": 5700000, 
         "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
         "Model": "", 
         "UIName": "Crab", 
-        "Id": "chassisdef_crab_CRB-27_actual", 
+        "Id": "chassisdef_crab_CRB-27", 
         "Name": "Crab", 
         "Details": "Designed in 2719 during the last days of the Star League, the Crab 27 was built as a medium-weight raider and guerrilla fighter for the Star League Defense Force. Although lacking hand actuators or jump jets, it possessed good overland speed and its all-energy weapons payload was suitable for long-range missions without the prospect for resupply.", 
         "Icon": "uixTxrIcon_crab"
@@ -24,7 +29,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 65, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 130, 
     "StabilityDefenses": [
         0, 
@@ -39,11 +44,11 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 5, 
-    "PunchesWithLeftArm": true, 
+    "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 65, 
-    "MeleeInstability": 50, 
+    "MeleeDamage": 45, 
+    "MeleeInstability": 45, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 65, 
     "DFAToHitModifier": 0, 

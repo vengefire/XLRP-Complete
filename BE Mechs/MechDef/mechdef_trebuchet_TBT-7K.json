@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 764472, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Trebuchet TBT-7K", 
@@ -444,7 +444,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightArm", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM_half", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -455,5 +455,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 764472
+    "simGameMechPartCost": 712500
 }

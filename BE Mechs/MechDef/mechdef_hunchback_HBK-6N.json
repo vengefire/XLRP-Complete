@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_hunchback_HBK-6N", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 816536, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 816536,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hunchback HBK-6N", 
@@ -60,7 +60,7 @@
             "Location": "RightTorso", 
             "CurrentArmor": 120, 
             "CurrentRearArmor": 40, 
-            "CurrentInternalStructure": 84, 
+            "CurrentInternalStructure": 100, 
             "AssignedArmor": 120, 
             "AssignedRearArmor": 40
         }, 
@@ -191,54 +191,10 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK", 
             "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
-            "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
-            "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
-            "SimGameUID": "", 
-            "ComponentDefType": "AmmunitionBox", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "emod_case", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
+            "ComponentDefType": "Weapon", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -247,9 +203,42 @@
         }, 
         {
             "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
             "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -300,6 +289,17 @@
             "prefabName": null, 
             "hasPrefabName": false
         }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "RightArm", 
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK", 
@@ -488,7 +488,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightTorso", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Gear_HeatSink_Generic_Double", 
             "SimGameUID": "", 
             "ComponentDefType": "HeatSink", 
@@ -521,5 +521,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 816536
+    "simGameMechPartCost": 712500
 }

@@ -2,22 +2,28 @@
     "Name": "Flashpoint_CallOfTheLocusts",
     "Enabled": true,
 	
-    "Version": "2.0.0",
+    "Version": "2.0.2",
 
     "Author": "Carson Daut'rieve",
 
     "DependsOn": [],
     "ConflictsWith": [],
-
+	"DataAddendumEntries":[ 
+        { "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json" }
+	],
     "Manifest": [
 	{ "Type": "CastDef", "Path": "cast" },
 	{ "Type": "ContractOverride", "Path": "contracts" }, 
 	{ "Type": "SimGameEventDef", "Path": "events" },	
+	{ "Type": "FactionDef",  "Path": "factions/cotl" },
 	{ "Type": "FlashpointDef", "Path": "flashpoints" },
+	{ "Type": "HeraldryDef", "Path": "heraldry" },
+	{ "Type": "PilotDef", "Path": "pilot" },
 	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
 	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
 	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
 	{ "Type": "Sprite", "Path": "sprites" },
+	{ "Type": "Texture2D", "Path": "sprites" },
 	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }
     ]
 }

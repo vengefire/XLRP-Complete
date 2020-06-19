@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 255672, 
         "Rarity": 1, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Wasp WSP-1K", 
@@ -543,5 +543,5 @@
             "hasPrefabName": false
         }, 
     ], 
-    "simGameMechPartCost": 255672
+    "simGameMechPartCost": 350000
 }

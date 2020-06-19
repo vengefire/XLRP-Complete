@@ -1,7 +1,19 @@
 {
-    "FixedEquipment": [], 
+    "FixedEquipment": [
+      {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Gear_Actuator_Prototype_Hatchet", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+    ], 
     "Description": {
-        "Cost": 3538490, 
+        "Cost": 5100000, 
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -43,7 +55,7 @@
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
     "MeleeDamage": 40, 
-    "MeleeInstability": 45, 
+    "MeleeInstability": 40, 
     "MeleeToHitModifier": -2, 
     "DFADamage": 55, 
     "DFAToHitModifier": 0, 

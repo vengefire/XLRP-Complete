@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 343898, 
-        "Rarity": 0, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Urbanmech UM-R90", 
@@ -543,5 +543,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 343898
+    "simGameMechPartCost": 475000
 }

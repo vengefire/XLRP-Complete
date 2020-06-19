@@ -1,0 +1,63 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "ArtemisIVammo"
+			}
+		],
+		"Tag": "SRMARTIVAmmo",
+		"RequiredCategory": {
+			"CategoryID": "ArtemisTTS"
+		},
+		"ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 0.75,
+            "StabilityDamagePerAmmo": 1
+		},
+		"BonusDescriptions": {
+			"Bonuses": [
+				"PipsIgnored: +2",
+				"SRMCrit: +50%",
+				"SRMAmmo: 50",
+				"ReqArtemis"
+			]
+		},
+		"InventorySorter": {
+			"SortKey": "000037"
+		}
+	},
+	"AmmoID": "Ammunition_SRM_ArtemisIV",
+	"Capacity": 50,
+	"Description": {
+		"Cost": 200000,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "SRM Artemis IV",
+		"UIName": "Ammo SRM ART IV",
+		"Id": "Ammo_AmmunitionBox_ArtemisIV_SRM",
+		"Name": "SRM Artemis IV Ammo",
+		"Details": "Artemis IV SRM's have a ''smart'' Warhead that is able to efficiently guide itself towards any target, specifically designed to be used with and requiring the Artemis IV FCS offer these Missiles unparalleled Accuracy . Has 50 shots.",
+		"Icon": "uixSvgIcon_ammoBox_Missile"
+	},
+	"BonusValueA": "Ignore 2 Evasion",
+	"BonusValueB": "+50% Crit",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"component_noupgrade",
+			"SRMARTIVAmmo",
+			"TechLevel_HighTech"
+		],
+		"tagSetSourceFile": ""
+	}
+}

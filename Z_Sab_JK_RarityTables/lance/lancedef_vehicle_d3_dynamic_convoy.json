@@ -30,7 +30,8 @@
          },
          "excludedUnitTagSet" : {
             "items" : [
-            "unit_urbie",
+            "unit_notConvoy",
+			"BLACKLISTED",
             "unit_vehicle_mobileHQ",
             "unit_ext_rare_{CUR_TEAM.faction}",
             "unit_none_{CUR_TEAM.faction}",
@@ -67,7 +68,8 @@
          },
          "excludedUnitTagSet" : {
             "items" : [
-            "unit_urbie",
+            "unit_notConvoy",
+			"BLACKLISTED",
             "unit_heavy",
             "unit_assault",
             "unit_very_rare_{CUR_TEAM.faction}",
@@ -106,7 +108,8 @@
          },
          "excludedUnitTagSet" : {
             "items" : [
-			   "unit_urbie",
+			   "unit_notConvoy",
+			"BLACKLISTED",
             "unit_heavy",
             "unit_assault",
             "unit_very_rare_{CUR_TEAM.faction}",
@@ -145,7 +148,8 @@
          },
          "excludedUnitTagSet" : {
             "items" : [
-			   "unit_urbie",
+			   "unit_notConvoy",
+			"BLACKLISTED",
             "unit_heavy",
             "unit_assault",
             "unit_very_rare_{CUR_TEAM.faction}",

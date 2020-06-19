@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_hatchetman_HCT-5S", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 687232, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Cost": 687232,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hatchetman HCT-5S", 
@@ -283,17 +283,6 @@
             "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "Gear_Actuator_Prototype_Hatchet", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
@@ -576,5 +565,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 687232
+    "simGameMechPartCost": 637500
 }

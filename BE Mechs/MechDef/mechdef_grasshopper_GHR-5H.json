@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_grasshopper_GHR-5H", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1462392, 
+        "Cost": 1462392,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Grasshopper GHR-5H", 
@@ -576,7 +576,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -642,5 +642,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1462392
+    "simGameMechPartCost": 950000
 }

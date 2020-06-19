@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 844128, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Rarity": 1, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Griffin GRF-1S", 
@@ -565,5 +565,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 844128
+    "simGameMechPartCost": 750000
 }

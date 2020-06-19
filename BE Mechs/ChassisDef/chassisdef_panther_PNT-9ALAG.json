@@ -1,7 +1,7 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1895250, 
+        "Cost": 4000000, 
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -14,7 +14,7 @@
     }, 
     "VariantName": "PNT-9ALAG", 
     "StockRole": "Sniper & Light Brawler", 
-    "YangsThoughts": "One of few Combine regiments that prefer light 'Mechs, ideally the fastest possible, the Amphigean Light Assault Groups modify their Panthers for speed[10], dropping the 9R's jump jets to make room for a larger engine.", 
+    "YangsThoughts": "The Panther has always been slow, especially for a light mech. The bigger engine goes a long way to helping it keep up with the others in a typical light lance.", 
     "PrefabIdentifier": "chrPrfMech_pantherBase-001", 
     "PrefabBase": "panther", 
     "Tonnage": 35, 
@@ -24,7 +24,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 85, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 100, 
     "StabilityDefenses": [
         0, 
@@ -42,8 +42,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 50, 
-    "MeleeInstability": 35, 
+    "MeleeDamage": 30, 
+    "MeleeInstability": 30, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 45, 
     "DFAToHitModifier": 0, 
@@ -108,7 +108,7 @@
         {
             "Location": "Head", 
             "Hardpoints": [], 
-            "Tonnage": 1, 
+            "Tonnage": 0, 
             "InventorySlots": 4, 
             "MaxArmor": 45, 
             "MaxRearArmor": -1, 

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 828072, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Dervish DV-6M", 
@@ -279,7 +279,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightArm", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -532,5 +532,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 828072
+    "simGameMechPartCost": 750000
 }

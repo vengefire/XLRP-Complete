@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 379050, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 3, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Panther PNT-10KA", 
@@ -587,5 +587,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 379050
+    "simGameMechPartCost": 500000
 }

@@ -35,7 +35,8 @@
                "unit_heavy",
                "unit_assault",
                "unit_noncombatant",
-               "unit_urbie",
+               "unit_notConvoy",
+				"BLACKLISTED",
                "unit_very_rare_{CUR_TEAM.faction}",
                "unit_ext_rare_{CUR_TEAM.faction}",
                "unit_none_{CUR_TEAM.faction}",
@@ -72,7 +73,8 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-               "unit_urbie",
+               "unit_notConvoy",
+				"BLACKLISTED",
                "unit_rare_{CUR_TEAM.faction}",
                "unit_very_rare_{CUR_TEAM.faction}",
                "unit_ext_rare_{CUR_TEAM.faction}",
@@ -110,7 +112,8 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-               "unit_urbie",
+               "unit_notConvoy",
+				"BLACKLISTED",
                "unit_none_{CUR_TEAM.faction}",
                "unit_hero_{CUR_TEAM.faction}",
                "unit_LosTech",
@@ -145,7 +148,8 @@
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-               "unit_urbie",
+               "unit_notConvoy",
+				"BLACKLISTED",
                "unit_rare_{CUR_TEAM.faction}",
                "unit_very_rare_{CUR_TEAM.faction}",
                "unit_ext_rare_{CUR_TEAM.faction}",

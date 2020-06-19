@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_stalker_STK-4N", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 2169192, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Cost": 2169192,  
+        "Rarity": 4, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Stalker STK-4N", 
@@ -587,7 +587,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -598,7 +598,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -609,7 +609,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -664,5 +664,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2169192
+    "simGameMechPartCost": 1050000
 }

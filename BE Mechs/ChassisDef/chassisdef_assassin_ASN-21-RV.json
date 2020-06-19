@@ -1,4 +1,9 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "RightLimit": "Lower"
+        },
+    },
     "FixedEquipment": [
         {
             "MountedLocation": "Head", 
@@ -13,7 +18,7 @@
         }
     ], 
     "Description": {
-        "Cost": 3186360, 
+        "Cost": 4200000, 
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -21,14 +26,14 @@
         "UIName": "Assassin", 
         "Id": "chassisdef_assassin_ASN-21-RV", 
         "Name": "Assassin", 
-        "Details": "The ASN-21-RV lives up to its predecessor's name, especially against lighter tonnage 'Mechs. It has astounding jump capability in addition to its ground speed which it can use to power its COIL-M weapons platform. While up-armored, it still relies on speed for protection.", 
+        "Details": "The ASN-21-RV lives up to its predecessor's name, especially against lighter tonnage 'Mechs. It has improved speed due to an uprated engine which it can use to power its COIL-M weapons platform. While up-armored, it still relies on speed for protection due to a noticable lack of Jump Jets.", 
         "Icon": "uixTxrIcon_assassin"
     }, 
     "VariantName": "ASN-21-RV", 
     "StockRole": "Scout / Hunter-Killer", 
-    "YangsThoughts": "This 'Mech is fast, real fast. It's best utilized with hit-and-run attackes with its COIL weaponry and when denied this, used to launch missiles from range.", 
+    "YangsThoughts": "This 'Mech is fast, real fast ... I'm not kidding! It's best utilized with ground based hit-and-run attackes with its COIL weaponry and when denied this, used to launch missiles from range.", 
     "PrefabIdentifier": "chrPrfMech_assassinBase-001", 
-    "PrefabBase": "Assassin", 
+    "PrefabBase": "assassin", 
     "Tonnage": 40, 
     "InitialTonnage": 4, 
     "weightClass": "MEDIUM", 
@@ -36,7 +41,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 0, 
     "TurnRadius": 0, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 130, 
     "StabilityDefenses": [
         0, 
@@ -54,8 +59,8 @@
     "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 50, 
-    "MeleeInstability": 40, 
+    "MeleeDamage": 35, 
+    "MeleeInstability": 35, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 50, 
     "DFAToHitModifier": 0, 

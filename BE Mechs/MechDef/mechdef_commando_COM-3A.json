@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 295050, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Commando COM-3A", 
@@ -499,5 +499,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 295050
+    "simGameMechPartCost": 425000
 }

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 643498, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Cicada CDA-2B", 
@@ -389,5 +389,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 643498
+    "simGameMechPartCost": 525000
 }

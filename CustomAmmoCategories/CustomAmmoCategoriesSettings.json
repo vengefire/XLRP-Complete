@@ -18,14 +18,15 @@
     "impact",
     "nuka",
     "glow",
-    "burnedtrees"
+    "burnedtrees",
+	"floatiemessage"
   ],
   "NoForestBiomes": [
     "DesignMaskBiomeMartianVacuum",
     "DesignMaskBiomeLunarVacuum"
   ],
   "BurningForestStrength": 30,
-  "BurningForestBaseExpandChance": 0.0,
+  "BurningForestBaseExpandChance": 0.05,
   "DynamicDesignMasksDefs": [
     "DesignMaskCrystals",
     "DesignMaskForest",
@@ -53,6 +54,8 @@
   "BurningOffsetX": 0,
   "BurningOffsetY": 1,
   "BurningOffsetZ": 0,
+  "FireTerrainChance": 0,
+  "extendedBraceBehavior": true,
   "DontShowNotDangerouceJammMessages": true,
   "MineFieldPathingMods": {
     "pathingdef_light": 0.5,
@@ -166,6 +169,8 @@
   "DestroyedComponentsCritTrap": true,
   "CritLocationTransfer": true,
   "APMinCritChance": 0.1,
+  "NoCritFloatieMessage": true,
+  "RemoveFromCritRollStatName": "ignore_damage",
   "PatchWeaponSlotsOverflowCultures": [
     "CULTURE_RU_RU"
   ],
@@ -173,7 +178,9 @@
   "SelectionStateMoveBaseProcessMousePosTrottle": 4,
   "UpdateReticleTrottle": 8,
   "showMissBehavior": "None",
-  "extendedBraceBehavior": true,
+  "DestoryedLocationDamageTransferStructure" : false,
+  "NullifyDestoryedLocationDamage" : false,
+	"DestoryedLocationCriticalAllow": false,
   "DefaultAoEDamageMult": {
     "Building": {
       "Range": 1.2,
@@ -230,5 +237,16 @@
     "Play_Panic20",
     "Play_Panic23",
     "Play_Panic22"
-  ]
+  ],
+  "uiIcons":[ "weapon_up", "weapon_down" ],
+  "WeaponPanelWidthScale": 1.1,
+  "OrderButtonWidthScale": 0.5,
+  "OrderButtonPaddingScale": 0.3,
+  "SidePanelInfoSelfExternal": false,
+  "SidePanelInfoTargetExternal": false,
+  "MechHasNoStabilityTag": ["mech_no_stability"],
+  "TransferHeatDamageToNormalTag": ["heat_damage_to_normal"],
+  "ShowAttackGroundButton" : false,
+  "ShowWeaponOrderButtons": false,
+  "AttackLogWrite": false
 }

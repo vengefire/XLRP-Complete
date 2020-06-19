@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 786762, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Hunchback HBK-4H", 
@@ -60,7 +60,7 @@
             "Location": "RightTorso", 
             "CurrentArmor": 120, 
             "CurrentRearArmor": 20, 
-            "CurrentInternalStructure": 84, 
+            "CurrentInternalStructure": 100, 
             "AssignedArmor": 120, 
             "AssignedRearArmor": 20
         }, 
@@ -510,7 +510,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -521,7 +521,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -554,5 +554,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 786762
+    "simGameMechPartCost": 712500
 }

@@ -1,6 +1,4 @@
 {
-  "IncludeContractTypes": [],
-  "ExcludeContractTypes": [],
   "LancePool": {
     "ALL": ["Generic_Medium_Battle_Lance"]
   },
@@ -12,28 +10,27 @@
       "Conditions": ["IsEnemy"],
       "Suffix": "_Elite",
       "Overrides": {
+        "ChanceToSpawn": 0.2
+      }
+    },
+    "LancePool": {
+      "ALL": [
+      ]
+    }
+  },
+  "Allies": {
+    "Max": 1,
+    "ChanceToSpawn": 0.4,
+    "EliteLances": {
+      "Conditions": ["IsAlly"],
+      "Overrides": {
+        "Max": 2,
         "ChanceToSpawn": 0.6
       }
     },
     "LancePool": {
       "ALL": [
-        "Generic_Light_Battle_Lance", "Generic_Medium_Battle_Lance"
-      ]
-    }
-  },
-  "Allies": {
-    "Max": 0,
-    "ChanceToSpawn": 0.0,
-    "EliteLances": {
-      "Conditions": ["IsAlly"],
-      "Overrides": {
-        "Max": 0,
-        "ChanceToSpawn": 0.0
-      }
-    },
-    "LancePool": {
-      "ALL": [
-        "Generic_Medium_Battle_Lance"
+        "Damaged_Medium_Battle_Lance"
       ]
     }
   }

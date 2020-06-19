@@ -1,7 +1,12 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+      "RightLimit": "Lower"
+        },
+    },
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 11618560, 
+        "Cost": 20400000, 
         "Rarity": 5, 
         "Purchasable": false, 
         "Manufacturer": "", 
@@ -39,16 +44,16 @@
     "SensorRangeMultiplier": 1, 
     "Signature": 0, 
     "Radius": 8, 
-    "PunchesWithLeftArm": false, 
+    "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 45, 
-    "MeleeInstability": 23, 
+    "MeleeDamage": 85, 
+    "MeleeInstability": 85, 
     "MeleeToHitModifier": 0, 
-    "DFADamage": 90, 
+    "DFADamage": 115, 
     "DFAToHitModifier": 0, 
-    "DFASelfDamage": 90, 
-    "DFAInstability": 45, 
+    "DFASelfDamage": 57.5, 
+    "DFAInstability": 115, 
     "ChassisTags": {
         "items": [
             "DesignedForDFA", 

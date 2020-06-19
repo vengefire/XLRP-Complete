@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2092200, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Longbow LGB-7V", 
@@ -587,5 +587,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2092200
+    "simGameMechPartCost": 1050000
 }

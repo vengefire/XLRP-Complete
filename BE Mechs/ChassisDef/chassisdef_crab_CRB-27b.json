@@ -1,7 +1,13 @@
 {
+    "Custom": {
+    "ArmActuatorSupport": {
+        "LeftLimit": "Lower",
+        "RightLimit": "Lower", 
+        },
+    },
   "FixedEquipment": [], 
     "Description": {
-        "Cost": 3859490, 
+        "Cost": 11400000, 
         "Rarity": 2, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -9,12 +15,12 @@
         "UIName": "Crab", 
         "Id": "chassisdef_crab_CRB-27b", 
         "Name": "Crab", 
-        "Details": "Designed in 2719 during the last days of the Star League, the Crab 27 was built as a medium-weight raider and guerrilla fighter for the Star League Defense Force. Although lacking hand actuators or jump jets, it possessed good overland speed and its all-energy weapons payload was suitable for long-range missions without the prospect for resupply.", 
+        "Details": "A simple upgrade utilized by the SLDF Royals concurrently with the original Crab, the 27b replaces the heat sinks with double-strength models and the large lasers with ER Large Lasers.", 
         "Icon": "uixTxrIcon_crab"
     }, 
     "VariantName": "CRB-27b", 
     "StockRole": "Direct-Fire Support", 
-    "YangsThoughts": "A Star League variant thought to be lost in recent times, we may be the only Mercenary unit with the 27 in their mech bay.", 
+    "YangsThoughts": "A Star League variant thought to be lost in recent times, we may be the only Mercenary unit with the 27b in their mech bay.", 
     "PrefabIdentifier": "chrPrfMech_crabBase-001", 
     "PrefabBase": "crab", 
     "Tonnage": 50, 
@@ -24,7 +30,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 65, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 130, 
     "StabilityDefenses": [
         0, 
@@ -42,8 +48,8 @@
     "PunchesWithLeftArm": true, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 65, 
-    "MeleeInstability": 50, 
+    "MeleeDamage": 45, 
+    "MeleeInstability": 45, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 65, 
     "DFAToHitModifier": 0, 

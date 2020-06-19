@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 643498, 
-        "Rarity": 1, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Icarus II ICR-1S", 
@@ -543,5 +543,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 643498
+    "simGameMechPartCost": 525000
 }

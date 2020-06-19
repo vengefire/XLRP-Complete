@@ -11,13 +11,13 @@
     "Description": {
         "Cost": 379050, 
         "Rarity": 1, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Panther PNT-9ALAG", 
         "Id": "mechdef_panther_PNT-9ALAG", 
         "Name": "Panther", 
-        "Details": "One of few Combine regiments that prefer light 'Mechs, ideally the fastest possible, the Amphigean Light Assault Groups modify their Panthers for speed[10], dropping the 9R's jump jets to make room for a larger engine.", 
+        "Details": "One of few Combine regiments that prefer light 'Mechs, ideally the fastest possible, the Amphigean Light Assault Groups modify their Panthers for speed, dropping the 9R's jump jets to make room for a larger engine.", 
         "Icon": "uixTxrIcon_panther"
     }, 
     "RequiredToSpawnCompanyTags": {
@@ -521,5 +521,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 379050
+    "simGameMechPartCost": 500000
 }

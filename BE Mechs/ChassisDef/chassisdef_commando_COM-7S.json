@@ -1,7 +1,7 @@
 {
     "FixedEquipment": [], 
     "Description": {
-        "Cost": 1535810, 
+        "Cost": 3400000, 
         "Rarity": 0, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -13,8 +13,8 @@
         "Icon": "uixTxrIcon_commando"
     }, 
     "VariantName": "COM-7S", 
-    "StockRole": "__/Base_3061.chassisdef_commando_COM-7S.StockRole/__", 
-    "YangsThoughts": "__/Base_3061.chassisdef_commando_COM-7S.YangsThoughts/__", 
+    "StockRole": "Light Striker & Scout", 
+    "YangsThoughts": "The lighter engine in the 7S allows for more guns on its light frame.", 
     "PrefabIdentifier": "chrPrfMech_commandoBase-001", 
     "PrefabBase": "commando", 
     "Tonnage": 25, 
@@ -24,7 +24,7 @@
     "Heatsinks": 0, 
     "TopSpeed": 85, 
     "TurnRadius": 90, 
-    "MaxJumpjets": 8, 
+    "MaxJumpjets": 2, 
     "Stability": 100, 
     "StabilityDefenses": [
         0, 
@@ -42,13 +42,13 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 13, 
-    "MeleeInstability": 7, 
+    "MeleeDamage": 20, 
+    "MeleeInstability": 20, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 25, 
     "DFAToHitModifier": 0, 
     "DFASelfDamage": 25, 
-    "DFAInstability": 13, 
+    "DFAInstability": 25, 
     "ChassisTags": {
         "items": [
             "TargetingBaffles", 

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 258298, 
-        "Rarity": 5, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Flea FLE-17", 
@@ -466,17 +466,6 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_MASC", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "mech_quirk_targeting_baffles", 
             "SimGameUID": "", 
@@ -488,5 +477,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 258298
+    "simGameMechPartCost": 350000
 }

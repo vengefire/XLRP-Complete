@@ -13,7 +13,7 @@
         }
     ], 
     "Description": {
-        "Cost": 1331000, 
+        "Cost": 2800000, 
         "Rarity": 1, 
         "Purchasable": true, 
         "Manufacturer": "", 
@@ -54,8 +54,8 @@
     "PunchesWithLeftArm": false, 
     "AlwaysPunchIfPossible": false, 
     "EngageRangeModifier": 0, 
-    "MeleeDamage": 30, 
-    "MeleeInstability": 20, 
+    "MeleeDamage": 15, 
+    "MeleeInstability": 15, 
     "MeleeToHitModifier": 0, 
     "DFADamage": 25, 
     "DFAToHitModifier": 0, 

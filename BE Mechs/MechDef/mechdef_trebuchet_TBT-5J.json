@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 764472, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 2, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Trebuchet TBT-5J", 
@@ -554,5 +554,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 764472
+    "simGameMechPartCost": 712500
 }

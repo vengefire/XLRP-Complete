@@ -9,9 +9,9 @@
     "ChassisID": "chassisdef_zeus_ZEU-6Y", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1909272, 
+        "Cost": 1909272,  
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Zeus ZEU-6Y", 
@@ -422,7 +422,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -433,7 +433,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -488,5 +488,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1909272
+    "simGameMechPartCost": 750000
 }

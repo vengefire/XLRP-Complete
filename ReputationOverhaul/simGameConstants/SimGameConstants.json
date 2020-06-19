@@ -1,6 +1,6 @@
 {
   "Story": {
-	"MaxContractsPerSystem": 4,
+	"MaxContractsPerSystem": 5,
     "StartingReputation": 0,
     "LoathedReputation": -80,
     "HatedReputation": -40,

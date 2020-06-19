@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 2000442, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 6, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Awesome AWS-9M", 
@@ -598,7 +598,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftLeg", 
+            "MountedLocation": "LeftArm", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM_half", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -609,5 +609,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 2000442
+    "simGameMechPartCost": 750000
 }

@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 1436288, 
-        "Rarity": 4, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Grasshopper GHR-5J", 
@@ -565,7 +565,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM_half", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -576,7 +576,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AMS", 
             "SimGameUID": "", 
             "ComponentDefType": "AmmunitionBox", 
@@ -642,5 +642,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1436288
+    "simGameMechPartCost": 950000
 }

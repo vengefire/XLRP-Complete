@@ -10,8 +10,8 @@
     "HeraldryID": null, 
     "Description": {
         "Cost": 809088, 
-        "Rarity": 2, 
-        "Purchasable": false, 
+        "Rarity": 5, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Centurion CN9-D3", 
@@ -520,17 +520,6 @@
             "prefabName": null, 
             "hasPrefabName": false
         }, 
-        {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_TSM", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }
     ], 
-    "simGameMechPartCost": 809088
+    "simGameMechPartCost": 712500
 }

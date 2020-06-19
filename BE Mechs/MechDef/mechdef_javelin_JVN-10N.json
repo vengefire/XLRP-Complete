@@ -11,7 +11,7 @@
     "Description": {
         "Cost": 340472, 
         "Rarity": 1, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Javelin JVN-10N", 
@@ -543,5 +543,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 340472
+    "simGameMechPartCost": 475000
 }
